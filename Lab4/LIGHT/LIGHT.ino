@@ -1,0 +1,49 @@
+void setup() {
+  pinMode(0,OUTPUT);
+  pinMode(1,OUTPUT);
+  pinMode(2,OUTPUT);
+  pinMode(3,OUTPUT);
+  pinMode(4,OUTPUT);
+  pinMode(5,OUTPUT);
+  pinMode(6,OUTPUT);
+  pinMode(7,OUTPUT);
+}
+
+void loop() {
+  PORTD=0b10111111;//0
+  delay(1000);
+  PORTD=0b00001110;//1
+  delay(1000);
+  PORTD=0b01110111;//2
+  delay(1000);
+  PORTD=0b01011111;//3
+  delay(1000);
+  PORTD=0b11001110;//4
+  delay(1000);
+  PORTD=0b11011101;//5
+  delay(1000);
+  PORTD=0b11111101;//6
+  delay(1000);
+  PORTD=0b00001111;//7
+  delay(1000);
+  PORTD=0b11111111;//8
+  delay(1000);
+  PORTD=0b11011111;//9
+  delay(1000);
+  PORTD=0b11111111;//8
+  delay(1000);
+  PORTD=0b00001111;//7
+  delay(1000);
+  PORTD=0b11111101;//6
+  delay(1000);
+  PORTD=0b11011101;//5
+  delay(1000);
+  PORTD=0b11001110;//4
+  delay(1000);
+  PORTD=0b01011111;//3
+  delay(1000);
+  PORTD=0b01110111;//2
+  delay(1000);
+  PORTD=0b00001110;//1
+  delay(1000);
+}

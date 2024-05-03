@@ -1,4 +1,4 @@
-# NCKU-MC_2021
+# NCKU-Microcomputer Control_2021
  [SYS3215] Microcomputer Control 2021 Course Materials
 
 # Note

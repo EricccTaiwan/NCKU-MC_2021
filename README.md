@@ -2,6 +2,6 @@
  [SYS3215] Microcomputer Control 2021 Course Materials
 
 # Note
-This set of homework/code was tested on Arduino UNO R3 with Cpp.
+This set of homework/code was tested on Arduino UNO R3 with C++.
 
 BTW I'm sharing contents **ILLEGALLY**.
